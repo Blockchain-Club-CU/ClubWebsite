@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
+import logo from '/logo1.svg';
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,9 +29,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              Tech Innovation Club
-            </h1>
+            <div className="flex items-center gap-1">
+              <img src={logo} alt="Blockchain Club logo" className="h-8 w-8 text-5xl" />
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-green-800 to-green-950 bg-clip-text text-transparent">
+                Blockchain Club
+              </h1>
+            </div>
           </div>
 
           <div className="hidden md:flex space-x-8">
