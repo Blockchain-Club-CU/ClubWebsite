@@ -14,7 +14,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              The Tech Innovation Club is a vibrant community of passionate students dedicated to exploring
+              The Blockchain Club is a vibrant community of passionate students dedicated to exploring
               the frontiers of technology. We bring together creative minds who are eager to learn, build,
               and innovate together.
             </p>
